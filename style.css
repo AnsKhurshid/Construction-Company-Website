@@ -1,0 +1,236 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+
+body{
+	scroll-behavior: smooth;
+		overflow-x: hidden;
+}
+header{
+	width: 100vw;
+	height:90vh;
+	background:linear-gradient(grey,grey), url("img/main.webp");
+	background-image: url('img/main.webp');
+	background-size: cover;
+	background-position:;
+	position: relative;
+	background-attachment: fixed;
+}
+nav{
+	width: 100%;
+	height:100px;
+	background: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 80px;
+	position:fixed;
+	top:0;
+	background:white;
+	z-index: 1;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.logo{
+
+
+	font-family: serif;
+	font-size:3.5em;
+}
+.logo span{
+	color: blueviolet;
+}
+
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size:20px;
+	
+	padding: 10px 20px;
+	font-family: sans-serif;
+
+}
+.menu a:first-child{
+	color:blueviolet;
+}
+.menu a:hover{
+	color: blueviolet;
+	transition: 0.4s;
+}
+.icon i{
+	font-size:30px;
+}
+.icon i:hover{
+	color: blueviolet;
+}
+.icon a{
+	padding:20px 50px;
+	background:blueviolet;
+	color:white;
+	text-decoration: none;
+	margin-left:20px;
+	border-radius: 10px;  
+}
+.icon a:hover{
+	background: transparent;
+	border:1px solid blueviolet;
+	color: black;
+	transition: 0.4s ease;
+}
+.h-text{
+	max-width: 700px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: black;
+
+	text-align: center;
+}
+
+.h-text h1{
+	font-family: serif;
+	font-size: 3em;
+	line-height:1.5em;
+}
+.h-text input{
+	width: 60%;
+	padding: 20px;
+	border-radius: 8px;
+	font-size: 20px;
+	border:none;
+	outline: none;
+}
+.h-text button{
+	width: 30%;
+	padding:20px;
+	background: blueviolet;
+	font-size: 20px;
+	border:none;
+	outline: none;
+	color: white;
+	border-radius: 8px; 
+	margin-top: 30px;
+}
+
+
+.filter-gallery{
+	padding:185px;
+
+}
+
+
+.portfolio-menu{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.portfolio-menu ul li{
+		list-style: none;
+		display: inline-block;
+		margin:10px 0px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: sans-serif;
+		padding: 10px 20px;
+		cursor: pointer;
+		transition: 0.5s ease;
+		text-align: center;
+		
+
+	}
+	.portfolio-menu ul li:hover{
+		background: blueviolet;
+		color: white;
+		border-radius: 8px;
+	}
+	li.active{
+		background:blueviolet;
+		color: white;
+		border-radius: 8px;
+	}
+	.portfolio-item{
+		width: 100%;
+	}
+	.portfolio-item .item{
+		width:360px ;
+		height:360px;
+		float: right;
+		margin-bottom:20px;
+		margin-right: 20px;
+	}
+.portfolio-item .item img{
+	width: 100%;
+	height: 50%;
+	border-radius: 8px;
+}
+.contect{
+
+	font-family: sans-serif;
+	width: 100%;
+
+	padding:20px 100px;
+}
+.contect-info{
+	
+	text-align: center;
+}
+
+.m-images{
+	width: 100%;
+	display: flex;
+	margin: 20px 0px;
+	overflow: hidden;
+}
+.m-images img{
+	width: 200px;
+	height: 200px;
+	cursor: pointer;
+	
+	transition: 0.4s ease-in-out;
+}
+.m-images img:hover{
+	transform: scale(1.5);
+}
+
+
+footer{
+	background: #262626;
+	color: white;
+	width: 100%;
+
+	padding: 50px 100px;
+}
+
+.f-contact{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-top:3em;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.f-contact>div{
+	flex-basis:20%;
+}
+.f-contact p{
+	line-height:2em;
+	font-size: 20px;
+	color: grey;	
+	cursor: pointer;
+}
+.f-contact p:hover{
+	color: white;
+}
+.f-contact i{
+	background: white;
+	color: black;
+	padding:10px;
+	font-size:16px;
+	margin: 20px 5px;
+	border-radius: 50%;
+	transition: .4s ease;
+}
+.f-contact i:hover{
+	background: transparent;
+	border:1px solid white;
+	color: white;
+}
